@@ -1,0 +1,1001 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* end of Reset */
+
+
+
+/* my code starts here */
+
+#pageone { 
+	background-color: #f2f2f2;
+}
+
+#containerone {
+	position: relative;
+	margin: 0 auto;
+}
+
+
+
+/* navigation bar */
+
+nav {
+	width: 100%;
+	height: 75px;
+	font-size: 14px;
+	text-align: center;
+	background-color: black;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 500;
+}
+
+	nav img {
+		width: 119px;
+		height: 54.6px;
+		float: left;
+		padding: 10px 30px;
+	}
+
+		nav ul {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			background-color: black;
+		}
+
+nav li {
+	float: right;
+}
+
+	nav li a{
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 29px 40px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		font-size: 16px;
+	}
+
+		nav li a:hover {
+			color: #ffcc21;
+		}
+
+			nav li img {
+				width: 20px;
+				height: 20px;
+				padding: 25px 0;
+			}
+
+
+
+/* footer */
+
+footer {
+	width: 100%;
+	height: 300px;
+	background-color: #24242e;
+	padding-top: 60px;
+}
+
+	.swordone {
+		float: left;
+		padding: 15px 40px 0 100px;
+	}
+
+.medialinks {
+	float: left;
+	text-align: center;
+	padding: 0  0 0 100px;
+}
+
+	.medialinks h1 {
+		color: white;
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		font-size: 25px;
+		text-transform: uppercase;
+	}
+
+		.medialinks h2 {
+			color: white;
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 15px;
+			line-height: 19px;
+			font-weight: lighter;
+			padding: 20px 0;
+		}
+
+.socialmedia button {
+	border-radius: 50%;
+	background-color: #ffcc21;
+	border: none;
+	text-decoration: none;
+	width: 55px;
+	height: 55px;
+	margin: 0 10px;
+}
+
+	.socialmedia button:hover {
+		background-color: white;
+	}
+
+		.socialmedia i {
+			color: #24242e;
+			font-size: 40px;
+		}
+
+.swordtwo {
+	float: right;
+	padding: 15px 100px 0 40px;
+}
+
+.clearfix {
+	clear: both;
+}
+
+footer p {
+	color: white;
+	font-family: 'Raleway', helvetica, arial, sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: lighter;
+	text-align: center;
+	padding: 0 250px;
+}
+	footer hr {
+		height: 1px;
+		background-color: white;
+		margin: 20px 150px 20px 150px;
+	}
+
+		footer h3 {
+			text-align: center;
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 11px;
+			line-height: 13px;
+			color: white;
+		}
+
+
+
+/* -------- index page -------- */
+
+
+
+/* header on index page */
+
+#header-one h1 {
+	font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 150px 0 10px 50px;
+}
+
+	#header-one hr {
+		height: 1px;
+		background-color: black;
+		margin: 0 620px 10px 50px;
+	}
+
+		#header-one p {
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 14px;
+			padding: 0px 620px 30px 50px;
+			line-height: 18px;
+		}
+
+	#header-one button {
+		width: 180px;
+		height: 30px;
+		margin-left: 50px;
+		border-radius: 9px;
+		background-color: #ffcc21;
+		color: black;
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		font-size: 13px;
+		text-transform: uppercase;
+		padding: 4px 0 8px 0;
+		border: none;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+		#header-one button img {
+			width: 17px;
+			height: 17px;
+			padding: 0 5px 0 0;
+		}
+
+
+
+/* diety of the day box on index page */
+
+#odinbox {
+	width: 300px;
+	height: 400px;
+	background-color: #e6e6e6;
+	position: absolute;
+	top: 150px;
+	left: 1150px;
+	z-index: 50;
+	border-radius: 10px;
+}
+
+	#odinbox h1 {
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		font-size: 22px;
+		text-align: center;
+		padding: 15px 0 0 0;
+		text-transform: uppercase;
+	}
+
+		#odinbox hr {
+			height: 1px;
+			background-color: black;
+			margin: 8px 40px 10px 40px;
+		}
+
+			#odinbox h2 {
+				font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+				font-size: 20px;
+				text-align: center;
+				font-weight: bold;
+				text-transform: uppercase;
+				padding: 10px;
+			}
+
+			 #odinbox img {
+			 	padding:  0 50px;
+			 }
+
+			 	#odinbox h3, #odinbox p {
+			 		font-family: 'Raleway', helvetica, arial, sans-serif;
+					font-size: 14px;
+					text-align: center;
+					padding: 5px 10px;
+					line-height: 16px;
+			 	}
+
+			 		#odinbox h3 {
+			 			text-transform: uppercase;
+			 			font-weight: bold;
+			 		}
+
+
+
+/* section content on index page */
+
+#section-one {
+	height: 290px;
+	background-color: #24242e;
+	margin-top: 60px;
+}
+
+#section-one h1 {
+	font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 60px 0 10px 50px;
+	color: white;
+}
+
+	#section-one hr {
+		height: 1px;
+		background-color: white;
+		margin: 0 620px 10px 50px;
+	}
+
+		#section-one p {
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 14px;
+			padding: 0px 620px 30px 50px;
+			line-height: 18px;
+			color: white;
+		}
+
+	#section-one button {
+		width: 120px;
+		height: 30px;
+		margin-left: 50px;
+		border-radius: 9px;
+		background-color: #ffcc21;
+		color: black;
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		font-size: 13px;
+		text-transform: uppercase;
+		padding: 4px 0 8px 0;
+		border: none;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+		#section-one button img {
+			width: 17px;
+			height: 17px;
+			padding: 0 5px 0 0;
+		}
+
+
+
+/* -------- god of the day page -------- */
+
+
+
+#pagetwo { 
+	background-color: #f2f2f2;
+}
+
+#containertwo {
+	margin: 0 auto;
+}
+
+/* header on god of the day */
+
+#header-two {
+	width: 700px;
+	height: 230px;
+	float: left;
+	padding: 150px 0 10px 50px;
+}
+
+#header-two h1 {
+	font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+	font-size: 30px;
+	text-transform: uppercase;
+}
+
+	#header-two h2 {
+		padding: 20px 0 10px 0;
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		font-size: 50px;
+		font-weight: bold;
+	}
+
+	#header-two hr {
+		height: 1px;
+		background-color: black;
+		margin: 0 400px 0 0;
+	}
+
+		#header-two h3 {
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 20px;
+			font-weight: bold;
+			padding: 15px 0 0 0;
+		}
+
+			#header-two h4 {
+				font-family: 'Raleway', helvetica, arial, sans-serif;
+				font-size: 15px;
+				padding: 10px 0;
+			}
+
+.odinpage {
+	width: 260px;
+	height: 260px;
+	float: right;
+	display: inline;
+	padding: 100px 150px 10px 50px;
+}
+
+
+
+/* section content */
+
+#godoftheday {
+	background-color: #24242e;
+	padding: 60px 50px 10px 50px; 
+	font-weight: lighter;
+	line-height: 22px;
+	font-size: 13px;
+	color: white;
+	font-family: 'Raleway', helvetica, arial, sans-serif;
+}
+ 
+	#godoftheday button {
+		width: 120px;
+		height: 22px;
+		margin-left: 50px;
+		border-radius: 9px;
+		background-color: #ffcc21;
+		color: black;
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		font-size: 13px;
+		text-transform: uppercase;
+		padding: 4px 0 8px 0;
+		margin: 10px 20px 20px 0;
+		border: none;
+		text-decoration: none;
+		font-weight: bold;
+		float: left;
+	}
+
+		#godoftheday button:hover {
+			background-color: white;
+		}
+
+
+
+/* -------- top gods page -------- */
+
+
+
+#pagethree { 
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+#containerthree {
+	margin: 0 auto;
+}
+
+
+
+/* header on top gods page */
+
+#headerthree h1 {
+	font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 150px 0 8px 0px;
+	text-align: center;
+}
+
+	#headerthree hr {
+		height: 2px;
+		background-color: black;
+		margin: 8px 320px;
+	}
+
+		#headerthree p {
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 14px;
+			padding: 10px 300px;
+			line-height: 18px;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+			#headerthree h2 {
+				font-family: 'Raleway', helvetica, arial, sans-serif;
+				font-size: 20px;
+				font-weight: bold;
+				text-align: center;
+				margin: 0 auto;
+				padding: 10px 0 50px 0;
+			}
+
+
+
+/* section content */
+
+#topgods01 {
+	width: 100%;
+	background-color: #24242e;
+	height: 450px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.top3 {
+	width: 350px;
+	height: 350px;
+	background-color: #f2f2f2;
+	border-radius: 15px;
+	margin: 0 auto;
+	display: inline-block;
+	margin: 50px 20px;
+}
+
+	.top3 h1, .top3 h3 {
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		text-transform: uppercase;
+	}
+
+		.top3 h1 {
+			font-size: 20px;
+			padding: 10px 0 0 0;
+		}
+
+			.top3 hr {
+				height: 2px;
+				background-color: black;
+				margin: 8px 80px;
+			}
+
+				.top3 h3 {
+					font-size: 15px;
+				}
+
+				.top3 a {
+					text-decoration: none;
+					color: black;
+				}
+
+					.top3 a:hover {
+						color: #ffac00; 
+					}
+
+				.top3 h2, .top3 h4 {
+					font-family: 'Raleway', helvetica, arial, sans-serif;
+				}
+
+					.top3 h2 {
+						text-transform: uppercase;
+						font-weight: bold;
+						font-size: 24px;
+					}
+
+						.top3 h4 {
+							font-size: 12px;
+							padding: 10px 60px;
+						}
+
+
+#topgods02 {
+	width: 100%;
+	background-color: #f2f2f2;
+	height: 350px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.topgods {
+	width: 270px;
+	height: 100px;
+	background-color: #24242e;
+	border-radius: 10px;
+	margin: 0 auto;
+	display: inline-block;
+	margin: 50px 20px 0 20px;
+}
+
+	.topgods h1, .topgods h2 {
+		font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+		text-transform: uppercase;
+		color: white;
+	}
+
+		.topgods h1 {
+			font-size: 20px;
+			padding: 8px 0 0 0;
+		}
+
+			.topgods hr {
+				height: 1px;
+				background-color: white;
+				margin: 8px 20px;
+			}
+
+				.topgods h2 {
+					font-size: 16px;
+					padding-bottom: 8px;
+					
+				}
+
+					.topgods a {
+						text-decoration: none;
+						color: white;
+					}
+
+						.topgods a:hover {
+							color: #ffac00;
+						}
+
+							.topgods h3 {
+								font-size: 12px;
+								font-family: 'Raleway', helvetica, arial, sans-serif;
+								color: white;
+							}
+
+
+
+/* -------- pantheons page -------- */
+
+
+
+#pagefour { 
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+#containerfour {
+	margin: 0 auto;
+}
+
+
+
+/* header on pantheons page */
+
+#headerfour h1 {
+	font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 150px 0 8px 0px;
+	text-align: center;
+}
+
+	#headerfour hr {
+		height: 2px;
+		background-color: black;
+		margin: 8px 320px;
+	}
+
+		#headerfour p {
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 14px;
+			padding: 10px 300px 110px 300px;
+			line-height: 18px;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+
+
+/* section for pantheons page */
+
+#sectionfour {
+	margin: 0 auto; 
+}
+
+#sectionfour h1 {
+	font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+	font-size: 26px;
+	text-transform: uppercase;
+	padding: 0px 0 8px 0px;
+	text-align: center;
+}
+
+	#sectionfour hr {
+		height: 2px;
+		background-color: black;
+		margin: 8px 500px 10px 500px;
+	}
+
+		#sectionfour form {
+				margin: 0 auto;
+				display: inline-block;
+				border-radius: 9px;
+		}
+
+/* europe buttons */
+
+.europe {
+	background-color: #f2f2f2;
+	margin: 0 auto;
+	width: 100%;
+	height: 210px;
+	text-align: center;
+}
+
+	.europe button {
+			border-radius: 9px;
+			width: 180px;
+			height: 30px;
+			background-color: black;
+			color: #ffcc21;
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 13px;
+			text-transform: uppercase;
+			padding: 6px 0 5px 0;
+			margin: 25px 15px 0 15px;
+			border: none;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+			.europe button:hover {
+				cursor: pointer;
+				background-color: #24242e;
+				color: white;
+			}
+
+/* africa buttons */
+
+.africa {
+	background-color: #ffcc21;
+	margin: 0 auto;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+	.africa button {
+			border-radius: 9px;
+			width: 180px;
+			height: 30px;
+			background-color: white;
+			color: black;
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 13px;
+			text-transform: uppercase;
+			padding: 6px 0 5px 0;
+			margin: 25px 15px 0 15px;
+			border: none;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+			.africa button:hover {
+				cursor: pointer;
+				background-color: #24242e;
+				color: white;
+			}
+
+/* america buttons */
+
+.america {
+	background-color: #f2f2f2;
+	margin: 0 auto;
+	width: 100%;
+	height: 170px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.america button {
+			border-radius: 9px;
+			width: 180px;
+			height: 30px;
+			background-color: black;
+			color: #ffcc21;
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 13px;
+			text-transform: uppercase;
+			padding: 6px 0 5px 0;
+			margin: 25px 15px 0 15px;
+			border: none;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+			.america button:hover {
+				cursor: pointer;
+				background-color: #24242e;
+				color: white;
+			}
+
+/* asia buttons */
+
+.asia {
+	background-color: #ffcc21;
+	margin: 0 auto;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+	.asia button {
+			border-radius: 9px;
+			width: 180px;
+			height: 30px;
+			background-color: white;
+			color: black;
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 13px;
+			text-transform: uppercase;
+			padding: 6px 0 5px 0;
+			margin: 25px 15px 0 15px;
+			border: none;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+			.asia button:hover {
+				cursor: pointer;
+				background-color: #24242e;
+				color: white;
+			}
+
+			/* asia buttons */
+
+.australia {
+	background-color: #f2f2f2;
+	margin: 0 auto;
+	width: 100%;
+	height: 120px;
+	text-align: center;
+	padding: 50px 0;
+}
+
+	.australia button {
+			border-radius: 9px;
+			width: 180px;
+			height: 30px;
+			background-color: black;
+			color: #ffcc21;
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 13px;
+			text-transform: uppercase;
+			padding: 6px 0 5px 0;
+			margin: 25px 15px 0 15px;
+			border: none;
+			text-decoration: none;
+			font-weight: bold;
+		}
+
+			.australia button:hover {
+				cursor: pointer;
+				background-color: #24242e;
+				color: white;
+			}
+
+
+
+/* -------- explore the gods page -------- */
+
+
+
+#pagefive { 
+	background-color: #f2f2f2;
+	margin: 0 auto;
+}
+
+#containerfive {
+	margin: 0 auto;
+}
+
+
+
+/* header on explore the gods page */
+
+#headerfive {
+
+}
+
+#headerfive h1 {
+	font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+	font-size: 30px;
+	text-transform: uppercase;
+	padding: 150px 0 8px 0px;
+	text-align: center;
+}
+
+	#headerfive hr {
+		height: 2px;
+		background-color: black;
+		margin: 8px 320px;
+	}
+
+		#headerfive p {
+			font-family: 'Raleway', helvetica, arial, sans-serif;
+			font-size: 14px;
+			padding: 10px 300px 40px 300px;
+			line-height: 18px;
+			text-align: center;
+			margin: 0 auto;
+		}
+
+/* section content for explore the gods page */
+
+
+#search {
+	width: 100%;
+	background-color: #24242e;
+	height: 450px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.search-name, .search-role {
+	width: 450px;
+	height: 225px;
+	background-color: #e6e6e6;
+	border-radius: 15px;
+	margin: 0 auto;
+	display: inline-block;
+	margin: 50px 20px;
+	text-align: center;
+}
+
+	.search-name {
+		margin-left: 283px;
+	}
+
+		.search-role h1, .search-name h1{
+			font-family: 'IM Fell DW Pica', georgia, 'times new roman', serif;
+			text-transform: uppercase;
+			font-size: 20px;
+			padding: 20px 0 0 0;
+		}
+
+.search-role hr, .search-name hr {
+	height: 2px;
+	background-color: black;
+	margin: 8px 50px;
+}
+
+	.search-role p, .search-name p {
+		font-family: 'Raleway', helvetica, arial, sans-serif;
+		font-size: 12px;
+		padding: 10px 50px;
+	}
+
+		.search-role form, .search-name form {
+			margin: 0 auto;
+			display: inline-block;
+			border-radius: 9px;
+		}
+
+.rolesearch01, .namesearch01 {
+	width: 200px;
+	height: 20px;
+	font-family: 'Raleway', helvetica, arial, sans-serif;
+	font-size: 11px;
+	text-transform: uppercase;
+}
+
+	.rolesearch02, .namesearch02 {
+		border-radius: 9px;
+		width: 90px;
+		height: 30px;
+		background-color: #ffcc21;
+		color: black;
+		font-family: 'Raleway', helvetica, arial, sans-serif;
+		font-size: 13px;
+		text-transform: uppercase;
+		padding: 6px 0 5px 0;
+		margin: 10px 15px 10px 15px;
+		border: none;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+		.rolesearch02:hover, .namesearch02:hover {
+			cursor: pointer;
+			background-color: #24242e;
+			color: white;
+		}
